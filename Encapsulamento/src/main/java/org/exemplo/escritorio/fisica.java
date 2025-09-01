@@ -36,6 +36,7 @@ public class fisica extends Pessoa {
         this.dataNascimento = dataNascimento;
     }
 
+
     @Override
     public String toString() {
         return "fisica{" +
