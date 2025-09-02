@@ -5,4 +5,10 @@ public class Cachorro implements Animal {
     public String emitirSom() {
         return "Au Au";
     }
+
+    @Override
+    public String comer() {
+        return "O cachorro está comendo ração.";
+    }
+
 }
